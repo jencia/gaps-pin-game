@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1",user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=yes"/>
+    <meta name="msapplication-tap-highlight" content="no" />
+    <link rel="icon" href="res/ico.ico" type="image/x-icon">
+    <title>见缝插针</title>
+    <link rel="stylesheet" type="text/css" href="src/index.css"/>
+    <style type="text/css" id="style"></style>
+</head>
+<body>
+<div id="menu">
+    <div class="menu1">
+        <h1>见缝插针</h1>
+        <h2>【游戏规则】</h2>
+        <p>点击屏幕发射针头</p>
+        <p>1到30根，每根0.1元</p>
+        <p>31根或以上，每根0.2元</p>
+        <p>无限针头，插满为止</p>
+        <!-- <p>可玩三次，取最高成绩</p> -->
+        <div class="btn start">开始</div>
+    </div>
+    <div class="menu2">
+        <h1>见缝插针</h1>
+        <!-- 头像 -->
+        <div class="tx"><img src="images/avatar.jpg"/></div>
+        <strong id="maxMoney">最高成绩为0元</strong>
+        <strong id="money">本次成绩为0元</strong><br/>
+        <div class="btn start divBtn">再来一次</div>
+    </div>
+</div>
+<canvas>
+    <h1>请升级您的浏览器</h1>
+</canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.11.2/dist/cdn/jquery-1.11.2.min.js"></script>
+<script src="src/style.js"></script>
+<script src="src/Game.js"></script>
+<script src="src/index.js"></script>
+</body>
+</html>
